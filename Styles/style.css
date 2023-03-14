@@ -1,0 +1,100 @@
+body{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(231, 233, 235, 0.98) 0.1%, rgb(184, 185, 206) 99.8% );
+    
+}
+.full-content{
+    width: 80%;
+    height: auto;
+    
+}
+.content{
+    width:90%;
+    margin-top: 75px;
+    margin-left:200px ;
+
+}
+img{
+    width: 40%;
+    max-height: 650px;
+}
+.comentmusic{
+    width:40%;
+    height: 550px;
+    float: left;
+    margin-bottom: 50px;
+    background-color: rgba(0, 255, 255, 0.247);
+}
+.comentbooks{
+    width: 60%;
+    float: right;
+    height: 650px;
+    margin-bottom: 50px;
+    background-color: rgba(240, 255, 255, 0.315);
+
+}
+img{
+    width: 100%;
+}
+.secundo{
+    padding-left:40px ;
+     padding-top: 0px;
+     padding-bottom: 0%;
+     font-family: 'Langar', cursive;
+     font-size:40px ;
+     color: rgb(29, 28, 28);
+     text-align: left;
+ }
+ .secundo:hover {
+    background-color: rgba(175, 153, 123, 0);
+    border-radius: 5px;
+    color: #24a876;
+
+}
+.formu label, input, select{
+    width: 80%;
+    margin: 15px;
+    border-radius: 6px;
+    min-height: 20px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    border-color: rgba(47, 124, 192, 0);
+ }
+ .buttons{
+    display: inline-block;
+    padding: 10px 25px;
+    color: rgb(28, 29, 31);
+    background-color: rgb(234, 240, 255);
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 35px;
+    text-align: center;
+    border: 1px solid rgba(220, 220, 220, 0);
+
+    border-radius: 30px;
+ }
+
+ .buttons:hover{
+    color: rgb(22, 22, 22);
+    background-color: #15bb5a;
+ }
+ .button{
+    display: inline-block;
+    padding: 10px 25px;
+    color: rgb(28, 29, 31);
+    background-color: rgb(234, 240, 255);
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 20px;
+    text-align: center;
+    border: 1px solid rgba(220, 220, 220, 0);
+
+    border-radius: 30px;
+ }
+
+ .button:hover{
+    color: rgb(22, 22, 22);
+    background-color: #15bb5a;
+ }
