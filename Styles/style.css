@@ -98,3 +98,10 @@ img{
     color: rgb(22, 22, 22);
     background-color: #15bb5a;
  }
+
+ @media screen and (max-width:1024){
+ .secundo{
+    font-size: 30px;
+ }
+
+}
