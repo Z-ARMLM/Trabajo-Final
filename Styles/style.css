@@ -98,10 +98,64 @@ img{
     color: rgb(22, 22, 22);
     background-color: #15bb5a;
  }
-
- @media screen and (max-width:1024){
+@media screen and (max-width:1280px){
+        .buttons{
+            margin-left: 13%;
+        }
+         .buttons{
+            margin-left: 7%;
+        } 
+}
+ @media screen and (max-width:1024px){
  .secundo{
     font-size: 30px;
  }
+ img{
+    height: 118%;
+ }
+
+ .button{
+    margin-top: 2%;
+ }
 
 }
+
+@media screen and (max-width:412px){
+   
+   .comentmusic{
+    display: none;
+   } 
+   
+   img{
+display:none;
+     }
+    
+     .comentbooks {
+        width: 133%;
+        float: left;
+        margin-left: -68%;
+        height: 740px;
+    }
+    .button{
+        margin-left: 34%;
+    }
+
+   body{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgb(184, 185, 206) 99.8% );
+   } 
+}
+
+@media screen and (max-width:375px){
+   
+     
+      .comentbooks {
+        width: 147%;
+        float: left;
+        margin-left: -81%;
+        height: 740px;
+        margin-top: -31%;
+    }
+    
+ }
+ 
+

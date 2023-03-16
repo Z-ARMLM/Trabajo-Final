@@ -96,7 +96,7 @@ a{
     background: rgba(226, 160, 160, 0);
     /* box-shadow: 5px 7px 10px rgba(190, 184, 184, 0.5); */
 align-items: center;
-    margin-left: -50px;
+    margin-left: -0;
 }
 .horixontal ul{
   position: relative;
@@ -515,6 +515,20 @@ padding-top: 30px;
     margin-left: -50px;
 }
 .tablesmusic h2{
+margin-left: -40%;}
+.formtable{
+    margin-left: 8%;
+}
+.redes{
+margin-top: 7%;
+}
+.redes h2{
+    margin-left: -1%;
+}
+.redes a{
+    padding-left: 10%;
+}
+.tablesmusic h2{
     padding-bottom: 50px;
 }
 /* titulos en h2 */
@@ -688,7 +702,7 @@ padding-top: 30px;
  }
 /* Tabla formato */
  table{
-    width: 60%;
+    width: 100%;
     border-collapse: collapse;
     background-color: rgba(196, 196, 196, 0.171);
 }
@@ -784,7 +798,7 @@ font-size: 20px;
     background-color: rgba(195, 198, 241, 0.918);
     width: 90%;
     height: 700px;
-    margin-left: 150px;
+    margin-left: 8%;
     border-radius: 20px;
     margin-right: 0;
 
@@ -949,9 +963,7 @@ font-size: 20px;
 
 }
 
-.cardimag{
 
-}
 /* botones parte de libros para el ver mas saga */
 .btno{
     display: inline-block;
@@ -1134,7 +1146,7 @@ height: 150PX;
 	margin:50px auto 0;
 	overflow: hidden;
     margin-bottom:50px ;
-    margin-left: 175px;
+    margin-left: -2%;
     border-radius: 25px;
 }
 
@@ -1198,7 +1210,7 @@ footer{
     width: 100%;
     height: 300px;
     background-image: url(../Multimedia/footer.gif);
-    transform: translateY(8000px);
+    /* transform: translateY(10%); */
     position: absolute;
     text-align: center;
 }
@@ -1217,7 +1229,7 @@ footer h3{
 
 }
 .f4{
-    transform: translateY(1800px);
+    transform: translateY(1770px);
 
 }
 /* Fin funcionamiento del footer */
@@ -1228,56 +1240,93 @@ footer h3{
 }.sect{
     background-color: rgba(195, 198, 241, 0.918);
     width: 80%;
-    height: 600px;
+    height: auto;
     margin-left: 200px;
     border-radius: 20px;
 }
-.librimg{
-    width: 400px;
-    height: 450px;
-    margin-left: 100px;
-    float: left;
+
+article article img{
+    width: 28%;
+    height: 500px;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    display: inline-block;
 }
-.sect p {
-    width: 400px;
-    padding-left: 25px;
-    padding-top: 30px;
-    float: left;
-}
-.sect a{
+.parr{
+    display: inline-block;
+    width: 60%;
+    float: right;
+    margin-right: 50%;
+    margin-right: 6%;
+    line-height: 1.7;
     margin-top: 5%;
-    margin-left: 12%;
+    font-size: 110%;
+}
+ .contente{
+    margin-left: 250px;
+    margin-bottom: 250px;
+ }
+
+.sect a{
+    margin-top: 11%;
+    margin-left: 36%;
 }
 
 /* Nest Hub Max */
-@media screen and (max-width:1280){
+@media screen and (max-width:1280px){
     .nombre {
-        font-size: 40px;
+        font-size: 150%;
     }
     .librimg {
-        margin-left: 50px;
+        margin-left: 6%;
     }
     .cuadrosBooks{
-        margin-left: 100px;
+        margin-left: 7%;
 
     }
+    .general {
+        margin-left: -31%;
+    }
+    .buton{
+        width: 80%;
+    }
+    .f2 {
+        transform: translateY(2350%);
+    }
+    .f4 {
+        transform: translateY(570%);
+    }
+.slider{
+    margin-left: -12%;
+}
+.parr{
+    margin-left: 1%;
+    margin-right: 3%;
+}
   }
 /* Nest Hub  */
-@media screen and (max-width:1024){
- .logo{
-    width: 100px;
-    height: 90px;
- }
+@media screen and (max-width:1024px){
+    .logo {
+        width: 10%;
+        height: 79%;
+    }
  nav ul li a {
     font-size: 30px;
     padding: 20px;
 }
+.menucentral{
+    margin-right: 0%;
+}
 .nombre{
-    font-size: 40px;
+    font-size: 131%;
     margin-right: 50px;
 }
+.general {
+    margin-left: -21%;
+}
 .sect{
-    margin-left: 100px;
+    width: 100%;
+    margin-left: -4%;
 }
 .librimg {
     width: 300px;
@@ -1285,6 +1334,7 @@ footer h3{
 }
 .slider {
     width: 800px;
+    margin-left: -13%;
 }
 .slider img {
     width: 800px;
@@ -1298,14 +1348,20 @@ footer h3{
     margin-left: 20px;
 }
 .cuadrosBooks{
-    margin-left: 0;
+    margin-left: -1%;
+    width: 100%;
+}
+.libroimg{
+    margin-left: 4%;
 }
 .cardsBooks{
     margin-left: 10px;
 }
-
+.todo{
+    margin-left: 23%;
+}
 footer{
-    transform: translateY(7850px);
+    transform: translateY(2745%);
 }
 .resumen, p {
     width: 90%;
@@ -1316,9 +1372,11 @@ footer{
     margin-left: 15px;
 }
 .content{
-    margin-left: 150px;
+    margin-left: 28%;
 }
-
+.secundo{
+    margin-left: -27%;
+}
 .secunda{
     font-size: 30px;
 }
@@ -1327,9 +1385,23 @@ footer{
     margin-left: 100px;
     width: 12%;
 }
+.comentmusic {
+   
+    margin-left: -12%;
+}
+
+.formtable{
+    margin-left: 10%;
+}
 
 .tablesmusic{
-    margin-left: -100px;
+    margin-left: -121px;
+}
+.formtable h2{
+    margin-left: -20%;
+}
+.redes{
+    margin-left: -6%;
 }
 th{
     padding: 0px 50px 0px 40px;
@@ -1342,10 +1414,275 @@ th{
     padding-left: 0px;
 
   }
-}
-@media screen and (max-width:952px){
-
+  .parr{
+    margin-top: 1%;
+    margin-right: 0%;
+    font-size: 105%;
   }
+}
+/* Samsung a71 */
+@media screen and (max-width:412px){
+    
+    .logo{
+    display: none;
+}
+.nombre{
+    font-size: 112%;
+}
+nav ul li a {
+    font-size: 70%;
+    padding: 15%;
+}
+.active{
+    width: 102%;
+}
+.sect{
+    height: 400px;
+}
+.librimg {
+    width: 49%;
+    height: 29%;
+    margin-left: 24%;
+    margin-bottom: 1%;
+}
+.parr{
+    font-size: 56%;
+    width: 100%;
+}
+.sect p{
+    width: 80%;
+    margin-left: 10%;
+}
+.sect h2{
+    font-size: 140%;
+    padding-top: 2%;
+}
+article article{
+    height: auto;
+}
+.slider{
+    width: 202%;
+    margin-left: -29%;}
+
+.slider img{
+    width: 103%;
+    height: 100%;
+}
+.slider ol {
+    width: 400%;
+    animation: slide 30s infinite alternate ease-in-out;
+}
+.sect a {
+    margin-top: 1%;
+    margin-left: 32%;
+}
+.full-content {
+    
+    margin-left: 2%;
+}
+.contente {
+    margin-left: 20%;
+}
+.general {
+    margin-left: -16%;
+    margin-right: -9%;
+}
+footer h3 {
+    font-size: 15px;
+    width: 80%;
+    margin-left: 10%;
+} 
+.horixontal{
+    display: block;
+    margin-top: 10%;
+    background-color: rgba(195, 166, 196, 0);
+    height: auto;
+    line-height: 1.4;
+} 
+.horixontal ul li a{
+    display: inline;   
+    margin-left: -15%;
+
+}
+.horixontal ul ul li{
+    margin-left: -63%;
+    background-color: rgb(195, 166, 196);
+}
+.cuadros{
+    margin-top: 238%;
+    margin-left: -16%;
+    margin-right: -14%;
+}
+
+.musicos {
+    width: 80%;
+    height: 200px;
+}
+.cards h3 {
+    font-size: 16px;
+    margin-left: -9%;
+}
+footer {
+    transform: translateY(-8%);
+    margin-left: -1%;
+}
+.cards{
+    width: 47%;
+    margin-left: -5px;
+}
+.buton{
+    margin-left: 0%;
+    width: 39%;
+}
+.f2 {
+    transform: translateY(2129%);
+    margin-left: -3%;
+}
+.content {
+    margin-top: 133%;
+}
+.cuadrosBooks {
+    margin-left: -22%;
+    width: 128%;
+}
+.musictittle{
+    font-size: 36px;
+}
+
+
+.libroimg {
+    margin-left: 4%;
+}
+.libroimg {
+    width: 75%;
+    height: 261px;
+}
+.resu {
+    width: 96%;
+    float: left;
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 7px;
+}
+
+.f3 {
+    transform: translateY(2946%);
+    margin-left: -2%;
+}
+.comentmusic {
+    width: 117%;
+    height: 700px;
+    margin-bottom: 100px;
+    margin-top: -140%;
+}
+.comentbooks {
+    width: 115%;
+    /* float: right; */
+    height: 700px;
+    margin-bottom: 100px;
+    margin-top: -20%;
+    margin-left: -16%;
+}
+
+.tablesmusic {
+    display: none;
+}
+.redes {
+    margin-left: -6%;
+    margin-top: -30%;
+}
+
+.f4 {
+    transform: translateY(610%);
+    margin-left: -1%;
+}
+.conteno {
+    margin-top: 180%;
+}
+.todo {
+    width: 95%;
+    margin-left: 7%;
+}
+.libimg {
+    width: 91%;
+    height: 349px;
+    float: left;
+}
+.resumen, p {
+    width: 90%;
+    margin-left: 4px;
+}
+.descrip {
+    width: 48%;
+    margin-right: 5px;
+  }
+
+}
+
+/* IPHONE SE */
+@media screen and (max-width:375px){
+    nav{
+        margin-top: -14px;
+    }
+
+    .nombre {
+        font-size: 105%;
+    }
+
+    .sect {
+        height: 478px;
+    }
+    .parr {
+        font-size: 62%;
+    }
+    .slider ol {
+        width: 400%;
+        animation: slide 10s infinite alternate ease-in-out;
+    }
+    .slider {
+        width: 219%;
+        margin-left: -29%;
+    }
+
+    .horixontal {
+        margin-top: 29%;
+    }
+    .cuadros h2{
+        margin-top: -108%;
+    }
+    .content {
+        margin-top: 135%;
+        margin-left: 19%;
+    }
+    .horixontal {
+        margin-top: -3%;
+    }
+   .f3 {
+        transform: translateY(2935%);
+    }
+    .redes h2 {
+        margin-left: -1%;
+        transform: translate(10px, 1969%);
+    }
+
+    .comentbooks h2 {
+        margin-left: -11%;
+    }
+    .libimg {
+        width: 91%;
+        height: 349px;
+        float: left;
+        margin-left: 5%;
+    }
+
+    .descrip{
+        height: 677px;
+    }
+
+
+}
+
+  
   /*samsung*/
   @media  screen and (max-width: 858px) {
 
